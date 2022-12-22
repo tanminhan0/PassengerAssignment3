@@ -21,7 +21,6 @@ public class Passenger {
     private long phone;
     private int age;
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long count;
@@ -33,7 +32,6 @@ public class Passenger {
         setPhone(phone);
         setAge(age);
     }
-
 
     public String getTitle() {
         return title;
@@ -99,5 +97,4 @@ public class Passenger {
             throw new IllegalArgumentException("You must be over 16.");
         }
     }
-
 }
