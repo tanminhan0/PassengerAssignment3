@@ -53,6 +53,4 @@ public class PassengerController {
     public List<Passenger> getPassengersByAge(@RequestParam(name = "age_start") int age1, @RequestParam(name = "age_end") int age2){
         return myService.findPassengerByAgeRange(age1, age2);
     }
-
-
 }

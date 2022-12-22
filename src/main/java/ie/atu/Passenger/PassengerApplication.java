@@ -32,11 +32,7 @@ public class PassengerApplication {
 	@GetMapping("/{passengerID}")
 	public Passenger getPassenger(@PathVariable String passengerID)
 	{
-
 		return myService.getPassenger(passengerID);
-
 	}
-
-
 
 }
