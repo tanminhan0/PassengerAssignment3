@@ -21,6 +21,7 @@ public class Passenger {
     private long phone;
     private int age;
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long count;
